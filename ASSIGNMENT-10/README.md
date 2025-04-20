@@ -1,22 +1,39 @@
-# 🏗️ Assignment 10 – Creational Patterns in Java
+# 🎓 E-Learning Platform – Creational Patterns Implementation
 
-## 💡 Language Choice: Java
-Java is chosen for its strong object-oriented support and robust tooling (JUnit, Maven, etc.).
+## 🧠 Overview
+This project demonstrates the implementation of all **six creational design patterns** using an E-Learning Platform as the domain model. It includes:
 
-## ✅ Implemented Creational Patterns
+- Java-based class implementation from the class diagram.
+- Patterns applied in real-world use cases (e.g., Vehicle Factory, Payment System).
+- Unit testing with JUnit for pattern validation.
 
-| Pattern          | Location                               | Use Case                                 |
-|------------------|----------------------------------------|-------------------------------------------|
-| Simple Factory   | `creational_patterns/simple_factory/`  | Centralized vehicle creation              |
-| Factory Method   | `creational_patterns/factory_method/`  | Payment processing abstraction            |
-| Abstract Factory | `creational_patterns/abstract_factory/`| GUI toolkit generation                    |
-| Builder          | `creational_patterns/builder/`         | Pizza building process                    |
-| Prototype        | `creational_patterns/prototype/`       | Object cloning for performance            |
-| Singleton        | `creational_patterns/singleton/`       | Shared database connection                |
+---
 
-## ✅ Justification Example
-Used **Builder** for the Pizza class due to many optional ingredients like cheese, crust, and toppings.
+## 🧱 Language & Design Choice
+**Language:** Java  
+**Why Java?** Java provides strong OOP support and mature tooling (JUnit, Maven, IntelliJ) ideal for demonstrating design patterns.  
 
-## 🧪 Testing
-- All patterns are tested under `/tests/` using JUnit.
-- Run with `mvn test` or `gradle test`.
+Domain classes are organized in `/src/main/java/com/elearning/model/`. Patterns are in `/creational_patterns/`.
+
+---
+
+## 🏗️ Patterns Implemented
+
+| Pattern          | Folder                          | Use Case                                             |
+|------------------|----------------------------------|------------------------------------------------------|
+| Simple Factory   | `simple_factory/`               | Create vehicles from a single factory method         |
+| Factory Method   | `factory_method/`               | Subclass determines how to process payments          |
+| Abstract Factory | `abstract_factory/`             | Return MacOS or Windows GUI components               |
+| Builder          | `builder/`                      | Construct a complex `Pizza` object                   |
+| Prototype        | `prototype/`                    | Clone shapes to avoid re-instantiation               |
+| Singleton        | `singleton/`                    | Global access to a single DB connection              |
+
+---
+
+## 🧪 Unit Testing
+
+Tests for all patterns are located in `/tests/`.  
+**Testing Framework:** JUnit 4  
+**How to Run Tests (Maven):**
+```bash
+mvn test
