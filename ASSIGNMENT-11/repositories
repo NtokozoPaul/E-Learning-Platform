@@ -1,0 +1,5 @@
+repositories/
+├── Repository.java                 ✅ Generic interface
+├── UserRepository.java             ✅ Specific interface
+├── CourseRepository.java
+├── AssignmentRepository.java
