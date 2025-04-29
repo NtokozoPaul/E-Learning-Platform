@@ -1,0 +1,31 @@
+assignment-12-service-api/
+├── api/
+│   ├── assignment_controller.py
+│   ├── course_controller.py
+│   └── user_controller.py
+├── docs/
+│   └── openapi.yaml  # Optional if auto-generated
+├── models/
+│   ├── assignment.py
+│   ├── course.py
+│   └── user.py
+├── repositories/
+│   ├── assignment_repository.py
+│   ├── course_repository.py
+│   └── user_repository.py
+├── services/
+│   ├── assignment_service.py
+│   ├── course_service.py
+│   └── user_service.py
+├── tests/
+│   ├── api/
+│   │   ├── test_assignment_api.py
+│   │   ├── test_course_api.py
+│   │   └── test_user_api.py
+│   └── services/
+│       ├── test_assignment_service.py
+│       ├── test_course_service.py
+│       └── test_user_service.py
+├── main.py
+├── README.md
+└── CHANGELOG.md
