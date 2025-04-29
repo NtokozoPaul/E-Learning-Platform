@@ -6,6 +6,16 @@ This project implements service logic and RESTful endpoints for managing Users, 
 
 ## 📁 Project Structure
 
+assignment-12-service-api/
+├── api/                      # REST API controllers
+├── docs/                     # OpenAPI or screenshots
+├── models/                   # Pydantic models
+├── repositories/             # In-memory persistence layer
+├── services/                 # Business logic layer
+├── tests/                    # Unit + API tests
+├── main.py                   # FastAPI app entry point
+└── README.md
+
 ---
 
 ## 🧠 Technologies
