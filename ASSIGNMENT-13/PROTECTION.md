@@ -21,3 +21,4 @@ Including administrators and restricting who can push ensures consistency and av
 These rules collectively improve code quality, minimize bugs, and enforce a culture of accountability and best practices within the development team.
 
 
+![May 10, 2025, 06_55_01 AM](https://github.com/user-attachments/assets/58f5ed64-7572-455c-93b8-1e585d6f7c86)
