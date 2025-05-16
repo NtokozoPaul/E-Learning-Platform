@@ -51,3 +51,13 @@ Add or update tests.
 Push your code and open a Pull Request (PR) to the main branch.
 
 Describe what you changed and reference the issue number.
+
+✅ PR Checklist
+ Tests pass (pytest)
+
+ Code follows standards
+
+ PR references a GitHub issue
+
+ Description clearly explains the changes
+
