@@ -5,7 +5,7 @@
 | Metric         | Count |
 |----------------|-------|
 | ⭐ Stars        | 25     |
-| 🍴 Forks       | 23     |
+| 🍴 Forks       |7     |
 
 ## 📣 Peer Review Notes
 
@@ -18,6 +18,6 @@
 ## 📝 Notes
 
 - The repository was shared with peers in the WhatsApp study group.
-- All feedback was gathered between [start date] and [end date].
+- All feedback was gathered between 17 May and 18 May.
 - Most contributors appreciated the clarity of `README.md` and `CONTRIBUTING.md`.
 
