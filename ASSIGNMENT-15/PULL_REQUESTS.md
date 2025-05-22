@@ -1,31 +1,32 @@
 # 🔁 Pull Requests Submitted
 
-## ✅ PR 1 – Project A: Student Attendance System
+## ✅ PR 1 – Glory Kasongo's Doctor Appointment Booking System
 
-- 🔗 PR: https://github.com/peer1-attendance/student-attendance/pull/9
-- 🐛 Issue: `good-first-issue` – Add unit tests for attendance controller
+- 🔗 PR: https://github.com/GloryKasongo/Doctor_appointment_booking_system/pull/3
+- 🐛 Issue: `good-first-issue` – Fix typo in confirmation message
 - 🧪 CI Status: ✅ Passed
-- 📄 Description: Implemented unit tests for the `AttendanceController` using Pytest. Added coverage for edge cases and input validation.
-- 🖼️ Screenshot: `docs/ci-pass-attendance.png`
+- 📄 Description: Fixed spelling errors in the appointment confirmation email. Ensured that all feedback messages now use consistent terminology.
+- 🖼️ Screenshot: `docs/ci-pass-doctor-booking.png`
 
 ---
 
-## ✅ PR 2 – Project B: Online Library App
+## ✅ PR 2 – Masizole Sukwana's Restaurant Menu POS
 
-- 🔗 PR: https://github.com/peer2-library/online-library/pull/14
-- 🔍 Issue: `feature-request` – Add profile picture upload
+- 🔗 PR: https://github.com/Masizole/Restaurant-Menu-POS/pull/7
+- 🔍 Issue: `feature-request` – Add VAT calculation to order summary
 - 🧪 CI Status: ✅ Passed
-- 📄 Description: Integrated profile picture upload in the user registration form. Validated file type/size and updated user model.
-- 🖼️ Screenshot: `docs/ci-pass-library.png`
+- 📄 Description: Added logic to calculate VAT for each order and display it in the order summary. Also included unit tests to verify VAT accuracy.
+- 🖼️ Screenshot: `docs/ci-pass-restaurant-pos.png`
 
 ---
 
-## ✅ PR 3 – Project C: Event Booking Platform
+## ✅ PR 3 – Siyasanga Mhlekude's E-Learning Platform
 
-- 🔗 PR: https://github.com/peer3-booking/event-booking/pull/11
-- 🧼 Issue: `good-first-issue` – Improve mobile responsiveness of navbar
+- 🔗 PR: https://github.com/SiyasangaMhlekude/Siyasanga-Mhlekude-03/pull/5
+- 🧼 Issue: `good-first-issue` – Improve course card layout
 - 🧪 CI Status: ✅ Passed
-- 📄 Description: Refactored CSS and layout for the navigation bar to improve display on mobile screens. Verified with browser dev tools.
-- 🖼️ Screenshot: `docs/ci-pass-booking.png`
+- 📄 Description: Refactored the CSS for course cards to improve spacing and mobile responsiveness. Changes tested in Chrome and Firefox dev tools.
+- 🖼️ Screenshot: `docs/ci-pass-siyasanga-elearning.png`
+
 
 
